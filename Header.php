@@ -29,6 +29,8 @@ require_once "Configaration.php";
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
     <!-- Bootstrap Finished -->
+<!--    for Google Recptcha-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!--    For Sweet Alert-->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!--Link to CSS for Styling-->
