@@ -1,10 +1,10 @@
 <?php
-$host = "localhost"; /* Host name */
-$user = "root"; /* User */
-$password = ""; /* Password */
-$dbname = "project_need_help"; /* Database name */
-
-$connection = mysqli_connect($host, $user, $password,$dbname);
+//$host = "localhost"; /* Host name */
+//$user = "root"; /* User */
+//$password = ""; /* Password */
+//$dbname = "project_need_help"; /* Database name */
+//global $connection;
+//$connection = mysqli_connect($host, $user, $password,$dbname);
  //Check connection(uncomment it for check)
 //if($connection) {
 //    echo " < br>"."We are connected";

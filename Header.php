@@ -57,7 +57,7 @@ require_once "Configaration.php";
             <nav class="monospace">
                 <ul>
                     <li><a href="Home.php">home</a></li>
-                    <li><a href="">Log-in</a></li>
+                    <li><a href="LogIn.php">Log-in</a></li>
                     <li><a href="RegisTration.php">Register</a></li>
                     <li><a href="">Log-Out</a></li>
 
@@ -66,11 +66,11 @@ require_once "Configaration.php";
             <ul>
                 <li>
                     <div class="menubtn">
-                        <button style="background-color:#42cc8c;">Guest Account</button>
+                        <button style="background-color:#42cc8c;"><a href="Home.php">Guest Account</a></button>
                     </div>
                 </li>
             </ul>
         </div>
     </header>
-    <body>
+</section>
 

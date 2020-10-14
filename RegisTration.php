@@ -1,6 +1,7 @@
 <?php
 require_once "Header.php";
 ?>
+<body>
     <h1>Registration</h1>
     <p>Fill up the form with correct values.</p>
     <!--    <div class="float-left">-->
@@ -12,7 +13,7 @@ require_once "Header.php";
         So,Did You clean your hand before using your computer?
     </small>
     </div>
-    <form action="" method="post" name="Registration" enctype="multipart/form-data">
+    <form autocomplete="on" action="Registration_Process.php" method="post" name="Registration" enctype="multipart/form-data">
         <div class="container login-left">
             <div class="row">
                 <div class="col-md-6">
@@ -66,7 +67,7 @@ require_once "Header.php";
     <!--    </div>-->
     <br>
     <div class="wrapper">
-        <button type="submit" name="submit" class="cta">
+        <button type="submit" name="create" class="cta">
             <span>Register</span>
             <span>
 				<svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -87,7 +88,7 @@ require_once "Header.php";
         </button>
     </div>
 <br>
-
+</body>
 <?php
 require_once "Footer.php";
 ?>

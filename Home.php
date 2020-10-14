@@ -1,12 +1,12 @@
 <?php
 require_once "Header.php";
 ?>
-
+<body>
 <input class="btn btn-primary" type="submit" id="locaTion" name="findMe" value="Locate me" onclick="getLocation()">
 <!--<button id="locaTion" onclick="getLocation()">Locate me</button>-->
 <p id="DEMO"></p>
 <p id="MAPS"></p>
-
+</body>
 
 
 <script type="text/javascript">
@@ -47,4 +47,7 @@ require_once "Header.php";
         }
     }
 </script>
+<?php
+require_once "Footer.php";
+?>
 
