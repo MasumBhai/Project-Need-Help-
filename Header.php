@@ -48,7 +48,6 @@ require_once "Configaration.php";
     <title>Project Need Help?</title>
 </head>
 
-<body>
 <section id="mainContent">
     <header>
         <div class="mainHeader">
@@ -57,9 +56,9 @@ require_once "Configaration.php";
             </div>
             <nav class="monospace">
                 <ul>
-                    <li><a href="">home</a></li>
+                    <li><a href="Home.php">home</a></li>
                     <li><a href="">Log-in</a></li>
-                    <li><a href="">Register</a></li>
+                    <li><a href="RegisTration.php">Register</a></li>
                     <li><a href="">Log-Out</a></li>
 
                 </ul>
@@ -67,10 +66,11 @@ require_once "Configaration.php";
             <ul>
                 <li>
                     <div class="menubtn">
-                        <button style="background-color:#42cc8c;">Help</button>
+                        <button style="background-color:#42cc8c;">Guest Account</button>
                     </div>
                 </li>
             </ul>
         </div>
     </header>
+    <body>
 
