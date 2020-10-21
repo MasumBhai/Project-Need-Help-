@@ -29,10 +29,32 @@ require_once "Configaration.php";
             integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
             crossorigin="anonymous"></script>
     <!-- Bootstrap Finished -->
-<!--    for Google Recptcha-->
+    <!--api for jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--    for Google Recptcha-->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <!--    For Sweet Alert-->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--    for mapBox-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet'/>
+<!--    for mapQuest-->
+    <script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+    <script type="text/javascript">
+        window.onload = function() {
+            L.mapquest.key = 'lYrP4vF3Uk5zgTiGGuEzQGwGIVDGuy24';
+
+            var map = L.mapquest.map('map', {
+                center: [23.872007999999997, 90.4072688],
+                layers: L.mapquest.tileLayer('map'),
+                zoom: 17
+            });
+
+            map.addControl(L.mapquest.control());
+        }
+    </script>
+
     <!--Link to CSS for Styling-->
     <style type="text/css">
         body {
@@ -43,6 +65,8 @@ require_once "Configaration.php";
             scroll-behavior: smooth;
         }
     </style>
+<!--for manual css file-->
+    <link rel="stylesheet" type = "text/css" href="comment_form.css" >
     <link rel="stylesheet" type="text/css" href="Stylee.css">
     <!--For Title-->
     <title>Project Need Help?</title>
@@ -59,7 +83,9 @@ require_once "Configaration.php";
                     <li><a href="Home.php">home</a></li>
                     <li><a href="LogIn.php">Log-in</a></li>
                     <li><a href="RegisTration.php">Register</a></li>
-                    <li><a href="">Log-Out</a></li>
+                    <li><a href="comment_front.php">Comment-Section</a></li>
+                    <li><a href="LogOut.php">Log-Out</a></li>
+                    <li><a href="AboutMe.php">About Me</a></li>
 
                 </ul>
             </nav>

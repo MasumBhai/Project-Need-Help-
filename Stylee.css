@@ -3,16 +3,20 @@ html{
     height: 100%;
     scroll-behavior: smooth;
     justify-content: center;
+
 }
 body
 {
     padding: 0%;
     margin : 2%;
 }
+small{
+    color: black;
+}
 header
 {
-    width: 100%;
-    height: 130vh;
+    /*width: 100%;*/
+    /*height: 130vh;*/
     /*    background-image: url('BG.png');*/
 }
 .mainHeader .logo img
@@ -80,18 +84,23 @@ ul li a {
 
 footer
 {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     height: 60px;
-    background-color: #7B68EE;
+    /*background-color: #7B68EE;*/
     box-shadow: 0 0 10px #000;
     margin: 0 auto;
-    text-align: center;
+    /*text-align: center;*/
 }
 footer p
 {
+    text-align: center;
     text-transform: uppercase;
+}
+footer #protection_01{
+    margin-left: 0;
+    justify-content: left;
 }
 .wrapper {
     display: flex;

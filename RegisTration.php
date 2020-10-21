@@ -13,7 +13,7 @@ require_once "Header.php";
         So,Did You clean your hand before using your computer?
     </small>
     </div>
-    <form autocomplete="on" action="Registration_Process.php" method="post" name="Registration" enctype="multipart/form-data">
+    <form autocomplete="on" action="Registration_Process_with_mail.php" method="post" name="Registration" enctype="multipart/form-data">
         <div class="container login-left">
             <div class="row">
                 <div class="col-md-6">

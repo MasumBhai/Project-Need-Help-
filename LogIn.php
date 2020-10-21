@@ -47,7 +47,7 @@ require_once "Header.php";
 </form>
 <br>
 <div class="wrapper">
-    <button type="submit" name="submit" class="cta">
+    <button type="submit" name="create" class="cta">
         <span>Register</span>
         <span>
 				<svg width="66px" height="43px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg"
